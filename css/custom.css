@@ -1,0 +1,78 @@
+/* apply a natural box layout model to all elements */
+/* 
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+*/
+
+body {
+	padding-top: 20px;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+sup,
+h1,
+h2,
+h3,
+h4,
+strong {
+	color: rgba(245,76,76,1);
+	font-family: 'Rokkitt', serif;
+}
+
+a:hover {
+	color: rgba(245,76,76,1);
+}
+
+.lead {font-weight: 500;}
+
+.nopaddingleft {
+	padding: 0 15px 0 0;
+}
+
+.list-group-item.active {
+	border-color: rgba(245,76,76,1);
+	background: #fff;
+}
+
+.list-group-item.active:hover {
+	border-color: rgba(245,76,76,1);
+	background: #fff;
+}
+
+h1 {font-size: 62px}
+
+jumbotron {
+	color: #f54c4c;
+}
+
+.bs-callout {
+	color: white;
+	background: #f54c4c;
+	margin: 20px 0;
+	padding: 15px 30px;
+}
+
+affix {
+	position: fixed;
+}
+
+i {
+	font-size: smaller;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #fff;
+}
+
+.navbar-inverse.li {
+	color: #fff;
+}
+
+.navbar-inverse.li.a:hover {
+	color: #fff;
+}
